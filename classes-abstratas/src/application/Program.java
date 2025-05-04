@@ -41,5 +41,6 @@ public class Program {
             sum += t.tax();
         }
         System.out.println("\nTOTAL TAXES: $ " + sum);
+        sc.close();
     }
 }
